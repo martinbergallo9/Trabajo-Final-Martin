@@ -1,0 +1,67 @@
+/*Estilos Generales*/
+h2 {color: whitesmoke;}
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+header{background-color: #127369;
+color:whitesmoke; 
+padding: 30px;}
+#galeria {height: 90vh;
+    background-color: rgb(141, 137, 133);}
+aside {background-color: #475f5d;
+width: 15vw;}
+main{margin: 5px;
+}
+footer {background-color:#475f5d;
+padding: 30px;
+color: rgb(253, 253, 253);}
+nav{background-color:#10403B;
+color:white
+;
+padding: 20px;
+}
+span{list-style-type: georgian;
+margin-left: 5px;
+margin-top: 1cm;
+color: rgb(0, 0, 0);
+background-color: rgb(245, 245, 245);
+padding: 5px 25px; 
+border-radius: 5px;}
+span:hover {background-color: rgb(209, 206, 200);}
+.icono { width: 30px;
+margin: 5px;}
+div{background-color: rgba(226, 209, 205, 0.952);
+width:100px ;
+height: 100px;
+margin: 5px;
+color:rgb(218, 218, 218);}
+
+
+
+
+
+/*FLEXBOX*/
+.headerFlex {display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;} /*multilinea*/
+.menuFlex{display: flex;
+ flex-flow: row nowrap;   /*forma abreviada direction*/
+justify-content: center;
+}
+.galeriaFlex {display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items:center;
+align-content:center;
+}
+.mainFlex {display: flex;}
+.asideFlex {display: flex;
+flex-flow: column  wrap;
+align-items: center;
+}
+.hijoFlex {order: -1;
+border: solid 10px;
+color: rgb(0, 0, 0);}
